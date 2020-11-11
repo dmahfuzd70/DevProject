@@ -7,11 +7,11 @@ RUN apt-get install unzip -y
 
 WORKDIR /tmp
 
-RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page259/the-town.zip
+RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page257/vallume.zip
 
-RUN unzip the-town.zip
+RUN unzip vallume.zip
 
-RUN cp -r the-town/*  /var/www/html/
+RUN cp -r vallume.zip/*  /var/www/html/
 
 EXPOSE 80
 
