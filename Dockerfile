@@ -7,11 +7,11 @@ RUN apt-get install unzip -y
 
 WORKDIR /tmp
 
-RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page260/memorial.zip
+RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page259/the-town.zip
 
-RUN unzip memorial.zip
+RUN unzip the-town.zip
 
-RUN cp -r memorial/*  /var/www/html/
+RUN cp -r the-town/*  /var/www/html/
 
 EXPOSE 80
 
