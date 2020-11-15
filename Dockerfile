@@ -11,7 +11,7 @@ RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page2
 
 RUN unzip vallume.zip
 
-RUN cp -r vallume.zip/*  /var/www/html/
+RUN cp -r vallume/*  /var/www/html/
 
 EXPOSE 80
 
