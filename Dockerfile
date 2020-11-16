@@ -7,11 +7,11 @@ RUN apt-get install unzip -y
 
 WORKDIR /tmp
 
-RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page257/vallume.zip
+RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page258/template-1.zip
 
-RUN unzip vallume.zip
+RUN unzip template-1.zip
 
-RUN cp -r vallume/*  /var/www/html/
+RUN cp -r template-1/*  /var/www/html/
 
 EXPOSE 80
 
