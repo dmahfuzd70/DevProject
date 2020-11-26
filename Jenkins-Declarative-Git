@@ -11,8 +11,6 @@ pipeline {
                 git credentialsId: 'github', url: 'https://github.com/dmahfuzd70/myweb.git'
             }
         }
-        
-        
-        }   
+       
     } 
 }
